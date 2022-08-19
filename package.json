@@ -1,0 +1,24 @@
+{
+  "name": "simon-game-challenge",
+  "homepage": "https://ShueiYang.github.io/simon-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShueiYang/simon-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShueiYang/simon-game/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
